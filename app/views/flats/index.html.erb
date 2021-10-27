@@ -1,5 +1,11 @@
 <p id="notice"><%= notice %></p>
 
+<div id="map"
+  style="width: 100%; height: 600px;"
+  data-markers="<%= @markers.to_json %>"
+  data-mapbox-api-key="pk.eyJ1IjoieWFzbmFoYyIsImEiOiJja3Y5bzFpcTlhNGJvMndvOGRmNmYzcnJvIn0.nWKipU2SBse4EF5Zt81Rog"></div>
+
+
 <h1>Flats</h1>
 
 <table>
